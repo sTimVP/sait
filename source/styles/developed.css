@@ -1,0 +1,65 @@
+.developed__wrapper{
+	text-align: center;
+	justify-content: center;
+	
+	
+}
+.text-dev{
+	margin: 69px 0 51px;
+	color: #3C4353;
+}
+.samsung__developed{
+	position: relative;
+}
+.samsung-text{
+	display: flex;
+	position: absolute;
+	right: 8.5%;
+	top: 4.38%;
+}
+.text-padding{
+	padding: 32px 32px 31px;
+	box-shadow: 0px 40px 40px 0px rgba(175, 175, 175, 0.4);
+	margin: 0;
+	border-radius: 14px 14px 14px 0px;
+	background-color: white;
+}
+.samsung__developed>img{
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+.letsgo__footer{
+	padding-left: 39px;
+	padding-top: 38px;
+	max-width: 724px;
+}
+.letsgo-text{
+font-size: 35px;
+font-weight: 400;
+line-height: 124.2%;
+margin-bottom: 33px;
+}
+.We-text{
+	font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 124.2%;
+margin-bottom: 55px;
+}
+
+.nuber-input{
+	margin-left: 20px;
+	width: auto;
+	
+}
+
+@media (max-width: 1100px){
+	.samsung__developed>img{
+		max-width: 90%;
+	}
+	.samsung-text{
+		top: 0;
+	}
+}

@@ -1,0 +1,58 @@
+.promo {
+  padding: 175px 0 10px;
+  background:
+    url(../images/green-lines.svg) no-repeat 50% 50%,
+    url(../images/flowers.png) repeat 50% 50%;
+  min-height: 1200px;
+  
+  position: relative;
+  z-index: 5;
+}
+
+.promo__img >picture {
+position: absolute;
+right: 90px;
+bottom: 20px;
+z-index: 2;
+}
+.leave{
+	position: absolute;
+	right: 630px;
+	top: 220px;
+}
+.promo__title{
+	width: 90%;
+	position: relative;
+	right: 0;
+	top: 250px;
+	margin: 40px;
+}
+
+@media (max-width: 1500px){
+	.promo__img picture{
+		max-width: 40%;
+		left: 50%;
+	}
+	.leave{
+		top: 230px;
+		left: 45%;
+	}
+
+}
+@media (max-width: 1330px){
+	.promo__img >picture{
+		top: 300px;
+		
+	}
+
+.promo{
+	overflow: hidden;
+}
+
+	.promo__title>img{
+
+		width: 50%;
+	}
+
+
+}

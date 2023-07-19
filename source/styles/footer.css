@@ -1,0 +1,121 @@
+.footer__wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.contact__footer{
+font-size: 22px;
+font-weight: 400;
+}
+.subs__footer{
+	margin-top: 70px;
+}
+.contact-telegram{
+	margin-bottom: 20px;
+	
+
+}
+.contact-telegram::after{
+	content: url(../images/telegram.svg);
+	position: relative;
+	left: 20px;
+	top: 15px;
+}
+.letsgo__footer{
+	display: inline-block;
+	flex-shrink: 1;
+	max-width: 647px;
+	
+}
+.input__footer>input{
+	border-style: none;
+	outline-style: none;
+	border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+.checkbox{
+	display: flex;
+}
+.btn2 {
+	color: var(--white);
+	border: 0;
+	font-size: 20px;
+	line-height: 1.5;
+	border-radius: 50px;
+	padding: 15px;
+	min-width: 218px;
+  }
+  .upload-img::before{
+	content: url(../images/upload_img.svg);
+	position: relative;
+	top:5px;
+  }
+  .footer-img{
+	margin: 34px 0 34px;
+  }
+  .last__wrapper{
+	display: flex;
+	justify-content: center;}
+
+	.email-contact{
+		margin: 25px 0;
+	}
+	.subscribe-footer{
+		font-size: 16px;
+	}
+	.contact-text{
+		font-size: 35px; 
+		margin-bottom: 30px;
+	}
+
+  .last{
+	margin-top: 61px;
+	border-top: 1px solid rgb(0, 0, 0);
+  }
+  .tell-input{
+	width: 580px;
+	margin-top: 61px;
+
+}
+.upload-img{
+	margin-top: 41px;
+	font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+.please{
+	font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
+.checkbox-text{
+	margin: 41px 0;
+	display: flex ;
+}
+.checkbox-text>p{
+	margin: 0;
+	padding-left: 14px;
+	
+}
+.input-checkbox{
+	width: 25px;
+}
+
+  @media (max-width: 1200px){
+	.footer__wrapper{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	.contact__footer{
+		order: -1;
+
+		
+	}
+	.text__footer{
+		margin: 40px 0;
+text-align: center;
+	}
+}

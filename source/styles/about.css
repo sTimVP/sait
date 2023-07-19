@@ -1,0 +1,57 @@
+.about {
+  min-height: 802px;
+  padding: 450px 0 0 141px;
+  background: url(../images/about.png) no-repeat 50% 100%;
+  margin-top: -400px;
+  position: relative;
+  z-index: 10;
+}
+.about__wrapper{
+	display: flex;
+justify-content: space-between
+;}
+.about__title{
+	
+	font-weight: 400 ;
+	font-size: 40px;
+	color: var(--white)
+}
+.about__str{
+	font-size: 28px;
+	color: var(--white);
+position: relative;
+right: 0;
+}
+.about__str p+p{
+	margin: 0;
+}
+.market__about{
+	margin: 25px 0 25px;
+}
+.str__2{
+	font-weight: 500;
+	border-style: dashed;
+	border-color: #83BF0E;
+	border-radius: 10px;
+	border-width: 3px;
+	line-height: 2;
+	display: inline-block;
+					padding: 5px 20px;
+
+}
+.about-text{
+	margin: 0;
+}
+@media (max-width: 1300px){
+	.about__wrapper{
+		display: block;
+		position: relative;
+		top: -50px;
+	}
+	.str__2{
+		margin-bottom: 50px;
+	}
+	.feature__questions{
+		display: inline-block;
+	}
+}

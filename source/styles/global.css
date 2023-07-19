@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url(../font/GothamPro.ttf);
+    font-weight: 400;
+    font-style: normal;
+  }
+body, #body {
+  font-family: 'Gotham Pro', Helvetica, Arial, Tahoma, sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+  color: var(--black);
+  background: #fff;
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 14px;
+}

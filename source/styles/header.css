@@ -1,0 +1,26 @@
+.header {
+  padding: 15px 0;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.header__menu-btn {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0;
+  background: none;
+  border: 0;
+  padding: 0;
+  margin-left: 30px;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header__btn {
+  margin-left: auto;
+}
